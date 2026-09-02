@@ -1,0 +1,731 @@
+checkin_id,victim_id,timestamp,channel,language,raw_text,simulated_tier,missed_checkin,response_latency_sec
+CHK-0001-00,VIC-0001,2026-07-04 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,19
+CHK-0001-01,VIC-0001,2026-07-10 00:46:25,chat,en,Family is safe and doing well this week.,Low,1,7
+CHK-0001-02,VIC-0001,2026-07-16 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,10
+CHK-0001-03,VIC-0001,2026-07-22 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,8
+CHK-0001-04,VIC-0001,2026-07-28 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,21
+CHK-0001-05,VIC-0001,2026-08-03 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,1,8
+CHK-0001-06,VIC-0001,2026-08-09 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,23
+CHK-0001-07,VIC-0001,2026-08-15 00:46:25,sms,en,Received indirect threats in the market to withdraw the FIR.,High,0,60
+CHK-0001-08,VIC-0001,2026-08-21 00:46:25,sms,en,Received indirect threats in the market to withdraw the FIR.,High,0,35
+CHK-0002-00,VIC-0002,2026-07-04 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,25
+CHK-0002-01,VIC-0002,2026-07-10 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,22
+CHK-0002-02,VIC-0002,2026-07-16 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,11
+CHK-0002-03,VIC-0002,2026-07-22 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,22
+CHK-0002-04,VIC-0002,2026-07-28 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,8
+CHK-0002-05,VIC-0002,2026-08-03 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,9
+CHK-0002-06,VIC-0002,2026-08-09 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,6
+CHK-0002-07,VIC-0002,2026-08-15 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,20
+CHK-0002-08,VIC-0002,2026-08-21 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,10
+CHK-0003-00,VIC-0003,2026-07-04 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,16
+CHK-0003-01,VIC-0003,2026-07-10 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,8
+CHK-0003-02,VIC-0003,2026-07-16 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,9
+CHK-0003-03,VIC-0003,2026-07-22 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,19
+CHK-0003-04,VIC-0003,2026-07-28 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,10
+CHK-0003-05,VIC-0003,2026-08-03 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,1,24
+CHK-0003-06,VIC-0003,2026-08-09 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,10
+CHK-0003-07,VIC-0003,2026-08-15 00:46:25,sms,en,"They broke our window last night, I fear for our lives.",Critical,0,61
+CHK-0003-08,VIC-0003,2026-08-21 00:46:25,chat,en,"They broke our window last night, I fear for our lives.",Critical,0,53
+CHK-0004-00,VIC-0004,2026-07-04 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,24
+CHK-0004-01,VIC-0004,2026-07-10 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,10
+CHK-0004-02,VIC-0004,2026-07-16 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,15
+CHK-0004-03,VIC-0004,2026-07-22 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,11
+CHK-0004-04,VIC-0004,2026-07-28 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,25
+CHK-0005-00,VIC-0005,2026-07-04 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,13
+CHK-0005-01,VIC-0005,2026-07-10 00:46:25,sms,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,19
+CHK-0005-02,VIC-0005,2026-07-16 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,17
+CHK-0005-03,VIC-0005,2026-07-22 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,19
+CHK-0005-04,VIC-0005,2026-07-28 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,20
+CHK-0005-05,VIC-0005,2026-08-03 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,16
+CHK-0005-06,VIC-0005,2026-08-09 00:46:25,sms,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,91
+CHK-0005-07,VIC-0005,2026-08-15 00:46:25,ivrs,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,1,83
+CHK-0006-00,VIC-0006,2026-07-04 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,1,23
+CHK-0006-01,VIC-0006,2026-07-10 00:46:25,sms,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,1,25
+CHK-0006-02,VIC-0006,2026-07-16 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,1,14
+CHK-0006-03,VIC-0006,2026-07-22 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,18
+CHK-0006-04,VIC-0006,2026-07-28 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,12
+CHK-0006-05,VIC-0006,2026-08-03 00:46:25,chat,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,48
+CHK-0007-00,VIC-0007,2026-07-04 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,19
+CHK-0007-01,VIC-0007,2026-07-10 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,12
+CHK-0007-02,VIC-0007,2026-07-16 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,16
+CHK-0007-03,VIC-0007,2026-07-22 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,6
+CHK-0007-04,VIC-0007,2026-07-28 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,10
+CHK-0007-05,VIC-0007,2026-08-03 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,11
+CHK-0007-06,VIC-0007,2026-08-09 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,23
+CHK-0007-07,VIC-0007,2026-08-15 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,22
+CHK-0007-08,VIC-0007,2026-08-21 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,15
+CHK-0007-09,VIC-0007,2026-08-27 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,1,24
+CHK-0008-00,VIC-0008,2026-07-04 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,15
+CHK-0008-01,VIC-0008,2026-07-10 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,25
+CHK-0008-02,VIC-0008,2026-07-16 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,14
+CHK-0008-03,VIC-0008,2026-07-22 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,8
+CHK-0008-04,VIC-0008,2026-07-28 00:46:25,web,en,Direct death threat received today if we testify in court.,Critical,1,83
+CHK-0008-05,VIC-0008,2026-08-03 00:46:25,web,en,Direct death threat received today if we testify in court.,Critical,0,93
+CHK-0009-00,VIC-0009,2026-07-04 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,16
+CHK-0009-01,VIC-0009,2026-07-10 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,18
+CHK-0009-02,VIC-0009,2026-07-16 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,15
+CHK-0009-03,VIC-0009,2026-07-22 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,23
+CHK-0009-04,VIC-0009,2026-07-28 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,13
+CHK-0009-05,VIC-0009,2026-08-03 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,16
+CHK-0009-06,VIC-0009,2026-08-09 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,8
+CHK-0010-00,VIC-0010,2026-07-04 00:46:25,chat,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,1,18
+CHK-0010-01,VIC-0010,2026-07-10 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,24
+CHK-0010-02,VIC-0010,2026-07-16 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,16
+CHK-0010-03,VIC-0010,2026-07-22 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,19
+CHK-0010-04,VIC-0010,2026-07-28 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,8
+CHK-0010-05,VIC-0010,2026-08-03 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,8
+CHK-0010-06,VIC-0010,2026-08-09 00:46:25,web,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,0,74
+CHK-0010-07,VIC-0010,2026-08-15 00:46:25,sms,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,1,53
+CHK-0011-00,VIC-0011,2026-07-04 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,21
+CHK-0011-01,VIC-0011,2026-07-10 00:46:25,web,en,Family is safe and doing well this week.,Low,1,5
+CHK-0011-02,VIC-0011,2026-07-16 00:46:25,chat,en,Family is safe and doing well this week.,Low,1,16
+CHK-0011-03,VIC-0011,2026-07-22 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,14
+CHK-0011-04,VIC-0011,2026-07-28 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,23
+CHK-0011-05,VIC-0011,2026-08-03 00:46:25,chat,en,I feel completely isolated and overwhelmed with fear.,High,0,48
+CHK-0011-06,VIC-0011,2026-08-09 00:46:25,web,en,Received indirect threats in the market to withdraw the FIR.,High,0,58
+CHK-0012-00,VIC-0012,2026-07-04 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,8
+CHK-0012-01,VIC-0012,2026-07-10 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,9
+CHK-0012-02,VIC-0012,2026-07-16 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,13
+CHK-0012-03,VIC-0012,2026-07-22 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,19
+CHK-0012-04,VIC-0012,2026-07-28 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,18
+CHK-0012-05,VIC-0012,2026-08-03 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,25
+CHK-0012-06,VIC-0012,2026-08-09 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,24
+CHK-0013-00,VIC-0013,2026-07-04 00:46:25,ivrs,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,1,13
+CHK-0013-01,VIC-0013,2026-07-10 00:46:25,sms,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,20
+CHK-0013-02,VIC-0013,2026-07-16 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,6
+CHK-0013-03,VIC-0013,2026-07-22 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,18
+CHK-0013-04,VIC-0013,2026-07-28 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,17
+CHK-0013-05,VIC-0013,2026-08-03 00:46:25,chat,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,23
+CHK-0013-06,VIC-0013,2026-08-09 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,12
+CHK-0013-07,VIC-0013,2026-08-15 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,18
+CHK-0013-08,VIC-0013,2026-08-21 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,13
+CHK-0013-09,VIC-0013,2026-08-27 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,11
+CHK-0014-00,VIC-0014,2026-07-04 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,1,21
+CHK-0014-01,VIC-0014,2026-07-10 00:46:25,sms,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,11
+CHK-0014-02,VIC-0014,2026-07-16 00:46:25,sms,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,11
+CHK-0014-03,VIC-0014,2026-07-22 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,15
+CHK-0014-04,VIC-0014,2026-07-28 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,11
+CHK-0014-05,VIC-0014,2026-08-03 00:46:25,chat,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,40
+CHK-0014-06,VIC-0014,2026-08-09 00:46:25,chat,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,1,94
+CHK-0015-00,VIC-0015,2026-07-04 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,21
+CHK-0015-01,VIC-0015,2026-07-10 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,14
+CHK-0015-02,VIC-0015,2026-07-16 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,15
+CHK-0015-03,VIC-0015,2026-07-22 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,20
+CHK-0015-04,VIC-0015,2026-07-28 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,1,16
+CHK-0015-05,VIC-0015,2026-08-03 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,12
+CHK-0015-06,VIC-0015,2026-08-09 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,17
+CHK-0015-07,VIC-0015,2026-08-15 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,10
+CHK-0015-08,VIC-0015,2026-08-21 00:46:25,chat,hi,गवाही देने पर जान से मारने की सीधी धमकी मिली है।,Critical,0,44
+CHK-0015-09,VIC-0015,2026-08-27 00:46:25,ivrs,hi,"अब सहन नहीं हो रहा, कृपया तुरंत मदद भेजिए।",Critical,1,41
+CHK-0016-00,VIC-0016,2026-07-04 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,22
+CHK-0016-01,VIC-0016,2026-07-10 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,6
+CHK-0016-02,VIC-0016,2026-07-16 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,13
+CHK-0016-03,VIC-0016,2026-07-22 00:46:25,web,hi,"अब सहन नहीं हो रहा, कृपया तुरंत मदद भेजिए।",Critical,0,93
+CHK-0016-04,VIC-0016,2026-07-28 00:46:25,ivrs,hi,गवाही देने पर जान से मारने की सीधी धमकी मिली है।,Critical,0,75
+CHK-0017-00,VIC-0017,2026-07-04 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,5
+CHK-0017-01,VIC-0017,2026-07-10 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,18
+CHK-0017-02,VIC-0017,2026-07-16 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,10
+CHK-0017-03,VIC-0017,2026-07-22 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,22
+CHK-0017-04,VIC-0017,2026-07-28 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,11
+CHK-0018-00,VIC-0018,2026-07-04 00:46:25,web,en,Family is safe and doing well this week.,Low,0,10
+CHK-0018-01,VIC-0018,2026-07-10 00:46:25,chat,en,Family is safe and doing well this week.,Low,0,19
+CHK-0018-02,VIC-0018,2026-07-16 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,21
+CHK-0018-03,VIC-0018,2026-07-22 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,15
+CHK-0018-04,VIC-0018,2026-07-28 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,7
+CHK-0018-05,VIC-0018,2026-08-03 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,22
+CHK-0018-06,VIC-0018,2026-08-09 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,1,5
+CHK-0018-07,VIC-0018,2026-08-15 00:46:25,sms,en,Relatives of the accused were seen loitering outside our house.,High,1,38
+CHK-0018-08,VIC-0018,2026-08-21 00:46:25,ivrs,en,Relatives of the accused were seen loitering outside our house.,High,0,60
+CHK-0018-09,VIC-0018,2026-08-27 00:46:25,web,en,Relatives of the accused were seen loitering outside our house.,High,1,41
+CHK-0019-00,VIC-0019,2026-07-04 00:46:25,web,en,Family is safe and doing well this week.,Low,0,12
+CHK-0019-01,VIC-0019,2026-07-10 00:46:25,web,en,Family is safe and doing well this week.,Low,1,22
+CHK-0019-02,VIC-0019,2026-07-16 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,12
+CHK-0019-03,VIC-0019,2026-07-22 00:46:25,chat,en,Family is safe and doing well this week.,Low,0,16
+CHK-0019-04,VIC-0019,2026-07-28 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,24
+CHK-0020-00,VIC-0020,2026-07-04 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,14
+CHK-0020-01,VIC-0020,2026-07-10 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,8
+CHK-0020-02,VIC-0020,2026-07-16 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,17
+CHK-0020-03,VIC-0020,2026-07-22 00:46:25,web,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,12
+CHK-0020-04,VIC-0020,2026-07-28 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,1,15
+CHK-0020-05,VIC-0020,2026-08-03 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,20
+CHK-0020-06,VIC-0020,2026-08-09 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,25
+CHK-0021-00,VIC-0021,2026-07-04 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,5
+CHK-0021-01,VIC-0021,2026-07-10 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,1,13
+CHK-0021-02,VIC-0021,2026-07-16 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,1,23
+CHK-0021-03,VIC-0021,2026-07-22 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,18
+CHK-0021-04,VIC-0021,2026-07-28 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,11
+CHK-0021-05,VIC-0021,2026-08-03 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,10
+CHK-0022-00,VIC-0022,2026-07-04 00:46:25,ivrs,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,21
+CHK-0022-01,VIC-0022,2026-07-10 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,18
+CHK-0022-02,VIC-0022,2026-07-16 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,9
+CHK-0022-03,VIC-0022,2026-07-22 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,17
+CHK-0022-04,VIC-0022,2026-07-28 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,18
+CHK-0022-05,VIC-0022,2026-08-03 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,23
+CHK-0022-06,VIC-0022,2026-08-09 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,13
+CHK-0022-07,VIC-0022,2026-08-15 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,16
+CHK-0022-08,VIC-0022,2026-08-21 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,25
+CHK-0023-00,VIC-0023,2026-07-04 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,15
+CHK-0023-01,VIC-0023,2026-07-10 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,16
+CHK-0023-02,VIC-0023,2026-07-16 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,14
+CHK-0023-03,VIC-0023,2026-07-22 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,9
+CHK-0023-04,VIC-0023,2026-07-28 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,9
+CHK-0023-05,VIC-0023,2026-08-03 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,17
+CHK-0023-06,VIC-0023,2026-08-09 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,19
+CHK-0023-07,VIC-0023,2026-08-15 00:46:25,sms,en,"They broke our window last night, I fear for our lives.",Critical,1,89
+CHK-0023-08,VIC-0023,2026-08-21 00:46:25,ivrs,en,Direct death threat received today if we testify in court.,Critical,0,80
+CHK-0024-00,VIC-0024,2026-07-04 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,1,6
+CHK-0024-01,VIC-0024,2026-07-10 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,5
+CHK-0024-02,VIC-0024,2026-07-16 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,25
+CHK-0024-03,VIC-0024,2026-07-22 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,18
+CHK-0024-04,VIC-0024,2026-07-28 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,23
+CHK-0024-05,VIC-0024,2026-08-03 00:46:25,chat,en,"Things are calm today, I attended work without issues.",Low,0,10
+CHK-0025-00,VIC-0025,2026-07-04 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,18
+CHK-0025-01,VIC-0025,2026-07-10 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,13
+CHK-0025-02,VIC-0025,2026-07-16 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,7
+CHK-0025-03,VIC-0025,2026-07-22 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,14
+CHK-0025-04,VIC-0025,2026-07-28 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,12
+CHK-0025-05,VIC-0025,2026-08-03 00:46:25,web,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,13
+CHK-0025-06,VIC-0025,2026-08-09 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,24
+CHK-0025-07,VIC-0025,2026-08-15 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,22
+CHK-0025-08,VIC-0025,2026-08-21 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,18
+CHK-0025-09,VIC-0025,2026-08-27 00:46:25,ivrs,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,21
+CHK-0026-00,VIC-0026,2026-07-04 00:46:25,chat,en,Family is safe and doing well this week.,Low,1,7
+CHK-0026-01,VIC-0026,2026-07-10 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,13
+CHK-0026-02,VIC-0026,2026-07-16 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,5
+CHK-0026-03,VIC-0026,2026-07-22 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,16
+CHK-0026-04,VIC-0026,2026-07-28 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,1,14
+CHK-0026-05,VIC-0026,2026-08-03 00:46:25,web,en,Received indirect threats in the market to withdraw the FIR.,High,0,39
+CHK-0026-06,VIC-0026,2026-08-09 00:46:25,sms,en,Relatives of the accused were seen loitering outside our house.,High,1,87
+CHK-0027-00,VIC-0027,2026-07-04 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,24
+CHK-0027-01,VIC-0027,2026-07-10 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,10
+CHK-0027-02,VIC-0027,2026-07-16 00:46:25,chat,en,"Things are calm today, I attended work without issues.",Low,0,5
+CHK-0027-03,VIC-0027,2026-07-22 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,11
+CHK-0027-04,VIC-0027,2026-07-28 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,8
+CHK-0028-00,VIC-0028,2026-07-04 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,1,18
+CHK-0028-01,VIC-0028,2026-07-10 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,11
+CHK-0028-02,VIC-0028,2026-07-16 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,1,8
+CHK-0028-03,VIC-0028,2026-07-22 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,6
+CHK-0028-04,VIC-0028,2026-07-28 00:46:25,ivrs,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,68
+CHK-0029-00,VIC-0029,2026-07-04 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,19
+CHK-0029-01,VIC-0029,2026-07-10 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,19
+CHK-0029-02,VIC-0029,2026-07-16 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,24
+CHK-0029-03,VIC-0029,2026-07-22 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,23
+CHK-0029-04,VIC-0029,2026-07-28 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,8
+CHK-0030-00,VIC-0030,2026-07-04 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,8
+CHK-0030-01,VIC-0030,2026-07-10 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,1,20
+CHK-0030-02,VIC-0030,2026-07-16 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,1,13
+CHK-0030-03,VIC-0030,2026-07-22 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,16
+CHK-0030-04,VIC-0030,2026-07-28 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,22
+CHK-0030-05,VIC-0030,2026-08-03 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,12
+CHK-0030-06,VIC-0030,2026-08-09 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,20
+CHK-0030-07,VIC-0030,2026-08-15 00:46:25,sms,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,0,91
+CHK-0030-08,VIC-0030,2026-08-21 00:46:25,web,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,0,93
+CHK-0031-00,VIC-0031,2026-07-04 00:46:25,chat,en,"Things are calm today, I attended work without issues.",Low,0,17
+CHK-0031-01,VIC-0031,2026-07-10 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,24
+CHK-0031-02,VIC-0031,2026-07-16 00:46:25,web,en,Family is safe and doing well this week.,Low,0,22
+CHK-0031-03,VIC-0031,2026-07-22 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,15
+CHK-0031-04,VIC-0031,2026-07-28 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,21
+CHK-0031-05,VIC-0031,2026-08-03 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,1,7
+CHK-0031-06,VIC-0031,2026-08-09 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,16
+CHK-0031-07,VIC-0031,2026-08-15 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,8
+CHK-0031-08,VIC-0031,2026-08-21 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,20
+CHK-0031-09,VIC-0031,2026-08-27 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,17
+CHK-0032-00,VIC-0032,2026-07-04 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,25
+CHK-0032-01,VIC-0032,2026-07-10 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,15
+CHK-0032-02,VIC-0032,2026-07-16 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,12
+CHK-0032-03,VIC-0032,2026-07-22 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,24
+CHK-0032-04,VIC-0032,2026-07-28 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,22
+CHK-0032-05,VIC-0032,2026-08-03 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,21
+CHK-0033-00,VIC-0033,2026-07-04 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,16
+CHK-0033-01,VIC-0033,2026-07-10 00:46:25,sms,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,1,10
+CHK-0033-02,VIC-0033,2026-07-16 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,13
+CHK-0033-03,VIC-0033,2026-07-22 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,17
+CHK-0033-04,VIC-0033,2026-07-28 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,8
+CHK-0033-05,VIC-0033,2026-08-03 00:46:25,chat,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,0,41
+CHK-0033-06,VIC-0033,2026-08-09 00:46:25,sms,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,1,91
+CHK-0034-00,VIC-0034,2026-07-04 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,18
+CHK-0034-01,VIC-0034,2026-07-10 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,19
+CHK-0034-02,VIC-0034,2026-07-16 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,10
+CHK-0034-03,VIC-0034,2026-07-22 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,11
+CHK-0034-04,VIC-0034,2026-07-28 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,25
+CHK-0034-05,VIC-0034,2026-08-03 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,17
+CHK-0034-06,VIC-0034,2026-08-09 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,22
+CHK-0035-00,VIC-0035,2026-07-04 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,21
+CHK-0035-01,VIC-0035,2026-07-10 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,11
+CHK-0035-02,VIC-0035,2026-07-16 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,6
+CHK-0035-03,VIC-0035,2026-07-22 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,8
+CHK-0035-04,VIC-0035,2026-07-28 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,24
+CHK-0035-05,VIC-0035,2026-08-03 00:46:25,sms,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,15
+CHK-0036-00,VIC-0036,2026-07-04 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,19
+CHK-0036-01,VIC-0036,2026-07-10 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,24
+CHK-0036-02,VIC-0036,2026-07-16 00:46:25,web,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,7
+CHK-0036-03,VIC-0036,2026-07-22 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,19
+CHK-0036-04,VIC-0036,2026-07-28 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,15
+CHK-0037-00,VIC-0037,2026-07-04 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,6
+CHK-0037-01,VIC-0037,2026-07-10 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,9
+CHK-0037-02,VIC-0037,2026-07-16 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,6
+CHK-0037-03,VIC-0037,2026-07-22 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,17
+CHK-0037-04,VIC-0037,2026-07-28 00:46:25,chat,hi,गवाही देने पर जान से मारने की सीधी धमकी मिली है।,Critical,0,65
+CHK-0037-05,VIC-0037,2026-08-03 00:46:25,web,hi,"कल रात उन्होंने घर पर हमला करने की कोशिश की, जान को खतरा है।",Critical,0,42
+CHK-0038-00,VIC-0038,2026-07-04 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,11
+CHK-0038-01,VIC-0038,2026-07-10 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,12
+CHK-0038-02,VIC-0038,2026-07-16 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,10
+CHK-0038-03,VIC-0038,2026-07-22 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,19
+CHK-0038-04,VIC-0038,2026-07-28 00:46:25,web,en,"They broke our window last night, I fear for our lives.",Critical,0,63
+CHK-0038-05,VIC-0038,2026-08-03 00:46:25,ivrs,en,"They broke our window last night, I fear for our lives.",Critical,0,45
+CHK-0039-00,VIC-0039,2026-07-04 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,17
+CHK-0039-01,VIC-0039,2026-07-10 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,23
+CHK-0039-02,VIC-0039,2026-07-16 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,23
+CHK-0039-03,VIC-0039,2026-07-22 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,5
+CHK-0039-04,VIC-0039,2026-07-28 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,25
+CHK-0039-05,VIC-0039,2026-08-03 00:46:25,sms,en,Relatives of the accused were seen loitering outside our house.,High,0,63
+CHK-0040-00,VIC-0040,2026-07-04 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,9
+CHK-0040-01,VIC-0040,2026-07-10 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,1,9
+CHK-0040-02,VIC-0040,2026-07-16 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,20
+CHK-0040-03,VIC-0040,2026-07-22 00:46:25,chat,en,Family is safe and doing well this week.,Low,0,21
+CHK-0040-04,VIC-0040,2026-07-28 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,18
+CHK-0040-05,VIC-0040,2026-08-03 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,19
+CHK-0041-00,VIC-0041,2026-07-04 00:46:25,chat,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,1,24
+CHK-0041-01,VIC-0041,2026-07-10 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,1,21
+CHK-0041-02,VIC-0041,2026-07-16 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,22
+CHK-0041-03,VIC-0041,2026-07-22 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,19
+CHK-0041-04,VIC-0041,2026-07-28 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,5
+CHK-0041-05,VIC-0041,2026-08-03 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,1,22
+CHK-0041-06,VIC-0041,2026-08-09 00:46:25,ivrs,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,36
+CHK-0041-07,VIC-0041,2026-08-15 00:46:25,sms,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,0,84
+CHK-0042-00,VIC-0042,2026-07-04 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,9
+CHK-0042-01,VIC-0042,2026-07-10 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,19
+CHK-0042-02,VIC-0042,2026-07-16 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,15
+CHK-0042-03,VIC-0042,2026-07-22 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,15
+CHK-0042-04,VIC-0042,2026-07-28 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,17
+CHK-0042-05,VIC-0042,2026-08-03 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,11
+CHK-0042-06,VIC-0042,2026-08-09 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,12
+CHK-0042-07,VIC-0042,2026-08-15 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,20
+CHK-0042-08,VIC-0042,2026-08-21 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,12
+CHK-0042-09,VIC-0042,2026-08-27 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,6
+CHK-0043-00,VIC-0043,2026-07-04 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,22
+CHK-0043-01,VIC-0043,2026-07-10 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,10
+CHK-0043-02,VIC-0043,2026-07-16 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,12
+CHK-0043-03,VIC-0043,2026-07-22 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,21
+CHK-0043-04,VIC-0043,2026-07-28 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,14
+CHK-0044-00,VIC-0044,2026-07-04 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,10
+CHK-0044-01,VIC-0044,2026-07-10 00:46:25,web,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,8
+CHK-0044-02,VIC-0044,2026-07-16 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,18
+CHK-0044-03,VIC-0044,2026-07-22 00:46:25,chat,en,Family is safe and doing well this week.,Low,0,9
+CHK-0044-04,VIC-0044,2026-07-28 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,1,25
+CHK-0044-05,VIC-0044,2026-08-03 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,22
+CHK-0044-06,VIC-0044,2026-08-09 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,15
+CHK-0045-00,VIC-0045,2026-07-04 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,1,7
+CHK-0045-01,VIC-0045,2026-07-10 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,1,22
+CHK-0045-02,VIC-0045,2026-07-16 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,19
+CHK-0045-03,VIC-0045,2026-07-22 00:46:25,web,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,1,15
+CHK-0045-04,VIC-0045,2026-07-28 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,17
+CHK-0045-05,VIC-0045,2026-08-03 00:46:25,sms,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,0,74
+CHK-0045-06,VIC-0045,2026-08-09 00:46:25,web,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,45
+CHK-0046-00,VIC-0046,2026-07-04 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,1,5
+CHK-0046-01,VIC-0046,2026-07-10 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,18
+CHK-0046-02,VIC-0046,2026-07-16 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,22
+CHK-0046-03,VIC-0046,2026-07-22 00:46:25,chat,en,"Things are calm today, I attended work without issues.",Low,0,12
+CHK-0046-04,VIC-0046,2026-07-28 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,23
+CHK-0046-05,VIC-0046,2026-08-03 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,8
+CHK-0046-06,VIC-0046,2026-08-09 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,22
+CHK-0046-07,VIC-0046,2026-08-15 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,1,9
+CHK-0046-08,VIC-0046,2026-08-21 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,1,5
+CHK-0046-09,VIC-0046,2026-08-27 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,20
+CHK-0047-00,VIC-0047,2026-07-04 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,24
+CHK-0047-01,VIC-0047,2026-07-10 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,11
+CHK-0047-02,VIC-0047,2026-07-16 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,25
+CHK-0047-03,VIC-0047,2026-07-22 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,12
+CHK-0047-04,VIC-0047,2026-07-28 00:46:25,web,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,18
+CHK-0047-05,VIC-0047,2026-08-03 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,13
+CHK-0048-00,VIC-0048,2026-07-04 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,23
+CHK-0048-01,VIC-0048,2026-07-10 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,23
+CHK-0048-02,VIC-0048,2026-07-16 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,1,19
+CHK-0048-03,VIC-0048,2026-07-22 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,5
+CHK-0048-04,VIC-0048,2026-07-28 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,13
+CHK-0048-05,VIC-0048,2026-08-03 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,1,6
+CHK-0048-06,VIC-0048,2026-08-09 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,22
+CHK-0048-07,VIC-0048,2026-08-15 00:46:25,web,en,Family is safe and doing well this week.,Low,0,18
+CHK-0049-00,VIC-0049,2026-07-04 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,10
+CHK-0049-01,VIC-0049,2026-07-10 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,10
+CHK-0049-02,VIC-0049,2026-07-16 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,22
+CHK-0049-03,VIC-0049,2026-07-22 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,1,25
+CHK-0049-04,VIC-0049,2026-07-28 00:46:25,web,en,Relatives of the accused were seen loitering outside our house.,High,1,87
+CHK-0050-00,VIC-0050,2026-07-04 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,20
+CHK-0050-01,VIC-0050,2026-07-10 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,19
+CHK-0050-02,VIC-0050,2026-07-16 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,15
+CHK-0050-03,VIC-0050,2026-07-22 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,21
+CHK-0050-04,VIC-0050,2026-07-28 00:46:25,chat,hi,गवाही देने पर जान से मारने की सीधी धमकी मिली है।,Critical,0,46
+CHK-0050-05,VIC-0050,2026-08-03 00:46:25,chat,hi,"कल रात उन्होंने घर पर हमला करने की कोशिश की, जान को खतरा है।",Critical,1,62
+CHK-0051-00,VIC-0051,2026-07-04 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,14
+CHK-0051-01,VIC-0051,2026-07-10 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,14
+CHK-0051-02,VIC-0051,2026-07-16 00:46:25,chat,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,1,12
+CHK-0051-03,VIC-0051,2026-07-22 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,16
+CHK-0051-04,VIC-0051,2026-07-28 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,13
+CHK-0051-05,VIC-0051,2026-08-03 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,7
+CHK-0051-06,VIC-0051,2026-08-09 00:46:25,ivrs,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,1,68
+CHK-0051-07,VIC-0051,2026-08-15 00:46:25,ivrs,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,0,94
+CHK-0052-00,VIC-0052,2026-07-04 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,20
+CHK-0052-01,VIC-0052,2026-07-10 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,25
+CHK-0052-02,VIC-0052,2026-07-16 00:46:25,sms,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,21
+CHK-0052-03,VIC-0052,2026-07-22 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,9
+CHK-0052-04,VIC-0052,2026-07-28 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,11
+CHK-0052-05,VIC-0052,2026-08-03 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,13
+CHK-0052-06,VIC-0052,2026-08-09 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,6
+CHK-0052-07,VIC-0052,2026-08-15 00:46:25,sms,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,53
+CHK-0052-08,VIC-0052,2026-08-21 00:46:25,web,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,46
+CHK-0052-09,VIC-0052,2026-08-27 00:46:25,ivrs,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,1,42
+CHK-0053-00,VIC-0053,2026-07-04 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,20
+CHK-0053-01,VIC-0053,2026-07-10 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,17
+CHK-0053-02,VIC-0053,2026-07-16 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,5
+CHK-0053-03,VIC-0053,2026-07-22 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,11
+CHK-0053-04,VIC-0053,2026-07-28 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,13
+CHK-0053-05,VIC-0053,2026-08-03 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,10
+CHK-0054-00,VIC-0054,2026-07-04 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,25
+CHK-0054-01,VIC-0054,2026-07-10 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,19
+CHK-0054-02,VIC-0054,2026-07-16 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,8
+CHK-0054-03,VIC-0054,2026-07-22 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,1,24
+CHK-0054-04,VIC-0054,2026-07-28 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,25
+CHK-0054-05,VIC-0054,2026-08-03 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,22
+CHK-0054-06,VIC-0054,2026-08-09 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,25
+CHK-0054-07,VIC-0054,2026-08-15 00:46:25,sms,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,70
+CHK-0054-08,VIC-0054,2026-08-21 00:46:25,ivrs,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,66
+CHK-0054-09,VIC-0054,2026-08-27 00:46:25,chat,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,1,72
+CHK-0055-00,VIC-0055,2026-07-04 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,1,10
+CHK-0055-01,VIC-0055,2026-07-10 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,25
+CHK-0055-02,VIC-0055,2026-07-16 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,23
+CHK-0055-03,VIC-0055,2026-07-22 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,1,16
+CHK-0055-04,VIC-0055,2026-07-28 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,9
+CHK-0055-05,VIC-0055,2026-08-03 00:46:25,chat,en,Direct death threat received today if we testify in court.,Critical,0,37
+CHK-0055-06,VIC-0055,2026-08-09 00:46:25,web,en,Direct death threat received today if we testify in court.,Critical,0,86
+CHK-0056-00,VIC-0056,2026-07-04 00:46:25,web,en,Family is safe and doing well this week.,Low,1,23
+CHK-0056-01,VIC-0056,2026-07-10 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,15
+CHK-0056-02,VIC-0056,2026-07-16 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,17
+CHK-0056-03,VIC-0056,2026-07-22 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,14
+CHK-0056-04,VIC-0056,2026-07-28 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,19
+CHK-0056-05,VIC-0056,2026-08-03 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,6
+CHK-0056-06,VIC-0056,2026-08-09 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,13
+CHK-0056-07,VIC-0056,2026-08-15 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,16
+CHK-0056-08,VIC-0056,2026-08-21 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,21
+CHK-0057-00,VIC-0057,2026-07-04 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,21
+CHK-0057-01,VIC-0057,2026-07-10 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,12
+CHK-0057-02,VIC-0057,2026-07-16 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,21
+CHK-0057-03,VIC-0057,2026-07-22 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,22
+CHK-0057-04,VIC-0057,2026-07-28 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,15
+CHK-0058-00,VIC-0058,2026-07-04 00:46:25,web,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,12
+CHK-0058-01,VIC-0058,2026-07-10 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,16
+CHK-0058-02,VIC-0058,2026-07-16 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,7
+CHK-0058-03,VIC-0058,2026-07-22 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,16
+CHK-0058-04,VIC-0058,2026-07-28 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,1,21
+CHK-0058-05,VIC-0058,2026-08-03 00:46:25,ivrs,en,Received indirect threats in the market to withdraw the FIR.,High,0,61
+CHK-0059-00,VIC-0059,2026-07-04 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,11
+CHK-0059-01,VIC-0059,2026-07-10 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,1,24
+CHK-0059-02,VIC-0059,2026-07-16 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,13
+CHK-0059-03,VIC-0059,2026-07-22 00:46:25,web,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,1,19
+CHK-0059-04,VIC-0059,2026-07-28 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,24
+CHK-0059-05,VIC-0059,2026-08-03 00:46:25,chat,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,1,50
+CHK-0060-00,VIC-0060,2026-07-04 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,11
+CHK-0060-01,VIC-0060,2026-07-10 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,15
+CHK-0060-02,VIC-0060,2026-07-16 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,22
+CHK-0060-03,VIC-0060,2026-07-22 00:46:25,sms,en,"They broke our window last night, I fear for our lives.",Critical,0,49
+CHK-0060-04,VIC-0060,2026-07-28 00:46:25,sms,en,Direct death threat received today if we testify in court.,Critical,1,55
+CHK-0061-00,VIC-0061,2026-07-04 00:46:25,ivrs,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,24
+CHK-0061-01,VIC-0061,2026-07-10 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,1,14
+CHK-0061-02,VIC-0061,2026-07-16 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,8
+CHK-0061-03,VIC-0061,2026-07-22 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,12
+CHK-0061-04,VIC-0061,2026-07-28 00:46:25,chat,hi,मुझे बहुत डर लग रहा है और सब तरफ से अकेलापन महसूस हो रहा है।,High,0,46
+CHK-0062-00,VIC-0062,2026-07-04 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,1,15
+CHK-0062-01,VIC-0062,2026-07-10 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,16
+CHK-0062-02,VIC-0062,2026-07-16 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,21
+CHK-0062-03,VIC-0062,2026-07-22 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,1,20
+CHK-0062-04,VIC-0062,2026-07-28 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,6
+CHK-0062-05,VIC-0062,2026-08-03 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,9
+CHK-0062-06,VIC-0062,2026-08-09 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,1,21
+CHK-0062-07,VIC-0062,2026-08-15 00:46:25,web,en,Received indirect threats in the market to withdraw the FIR.,High,0,83
+CHK-0062-08,VIC-0062,2026-08-21 00:46:25,sms,en,Relatives of the accused were seen loitering outside our house.,High,1,75
+CHK-0062-09,VIC-0062,2026-08-27 00:46:25,chat,en,Relatives of the accused were seen loitering outside our house.,High,0,55
+CHK-0063-00,VIC-0063,2026-07-04 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,24
+CHK-0063-01,VIC-0063,2026-07-10 00:46:25,web,en,Family is safe and doing well this week.,Low,1,6
+CHK-0063-02,VIC-0063,2026-07-16 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,12
+CHK-0063-03,VIC-0063,2026-07-22 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,7
+CHK-0063-04,VIC-0063,2026-07-28 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,18
+CHK-0063-05,VIC-0063,2026-08-03 00:46:25,ivrs,en,Received indirect threats in the market to withdraw the FIR.,High,0,88
+CHK-0063-06,VIC-0063,2026-08-09 00:46:25,sms,en,Received indirect threats in the market to withdraw the FIR.,High,1,61
+CHK-0064-00,VIC-0064,2026-07-04 00:46:25,chat,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,17
+CHK-0064-01,VIC-0064,2026-07-10 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,6
+CHK-0064-02,VIC-0064,2026-07-16 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,6
+CHK-0064-03,VIC-0064,2026-07-22 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,18
+CHK-0064-04,VIC-0064,2026-07-28 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,24
+CHK-0064-05,VIC-0064,2026-08-03 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,10
+CHK-0064-06,VIC-0064,2026-08-09 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,10
+CHK-0064-07,VIC-0064,2026-08-15 00:46:25,chat,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,0,35
+CHK-0064-08,VIC-0064,2026-08-21 00:46:25,ivrs,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,0,40
+CHK-0065-00,VIC-0065,2026-07-04 00:46:25,chat,en,Family is safe and doing well this week.,Low,0,23
+CHK-0065-01,VIC-0065,2026-07-10 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,19
+CHK-0065-02,VIC-0065,2026-07-16 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,18
+CHK-0065-03,VIC-0065,2026-07-22 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,16
+CHK-0065-04,VIC-0065,2026-07-28 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,24
+CHK-0065-05,VIC-0065,2026-08-03 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,7
+CHK-0065-06,VIC-0065,2026-08-09 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,13
+CHK-0065-07,VIC-0065,2026-08-15 00:46:25,web,en,Family is safe and doing well this week.,Low,1,11
+CHK-0065-08,VIC-0065,2026-08-21 00:46:25,web,en,Family is safe and doing well this week.,Low,0,24
+CHK-0065-09,VIC-0065,2026-08-27 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,14
+CHK-0066-00,VIC-0066,2026-07-04 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,1,12
+CHK-0066-01,VIC-0066,2026-07-10 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,8
+CHK-0066-02,VIC-0066,2026-07-16 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,6
+CHK-0066-03,VIC-0066,2026-07-22 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,1,8
+CHK-0066-04,VIC-0066,2026-07-28 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,25
+CHK-0066-05,VIC-0066,2026-08-03 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,11
+CHK-0066-06,VIC-0066,2026-08-09 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,12
+CHK-0066-07,VIC-0066,2026-08-15 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,23
+CHK-0066-08,VIC-0066,2026-08-21 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,19
+CHK-0066-09,VIC-0066,2026-08-27 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,22
+CHK-0067-00,VIC-0067,2026-07-04 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,21
+CHK-0067-01,VIC-0067,2026-07-10 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,1,17
+CHK-0067-02,VIC-0067,2026-07-16 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,14
+CHK-0067-03,VIC-0067,2026-07-22 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,5
+CHK-0067-04,VIC-0067,2026-07-28 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,8
+CHK-0067-05,VIC-0067,2026-08-03 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,5
+CHK-0067-06,VIC-0067,2026-08-09 00:46:25,web,en,Family is safe and doing well this week.,Low,0,19
+CHK-0067-07,VIC-0067,2026-08-15 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,13
+CHK-0067-08,VIC-0067,2026-08-21 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,11
+CHK-0068-00,VIC-0068,2026-07-04 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,20
+CHK-0068-01,VIC-0068,2026-07-10 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,14
+CHK-0068-02,VIC-0068,2026-07-16 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,23
+CHK-0068-03,VIC-0068,2026-07-22 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,5
+CHK-0068-04,VIC-0068,2026-07-28 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,11
+CHK-0068-05,VIC-0068,2026-08-03 00:46:25,chat,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,13
+CHK-0069-00,VIC-0069,2026-07-04 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,12
+CHK-0069-01,VIC-0069,2026-07-10 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,1,13
+CHK-0069-02,VIC-0069,2026-07-16 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,20
+CHK-0069-03,VIC-0069,2026-07-22 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,22
+CHK-0069-04,VIC-0069,2026-07-28 00:46:25,sms,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,1,81
+CHK-0070-00,VIC-0070,2026-07-04 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,8
+CHK-0070-01,VIC-0070,2026-07-10 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,1,6
+CHK-0070-02,VIC-0070,2026-07-16 00:46:25,chat,en,Family is safe and doing well this week.,Low,1,13
+CHK-0070-03,VIC-0070,2026-07-22 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,19
+CHK-0070-04,VIC-0070,2026-07-28 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,16
+CHK-0070-05,VIC-0070,2026-08-03 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,1,7
+CHK-0070-06,VIC-0070,2026-08-09 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,22
+CHK-0070-07,VIC-0070,2026-08-15 00:46:25,chat,en,Received indirect threats in the market to withdraw the FIR.,High,1,86
+CHK-0070-08,VIC-0070,2026-08-21 00:46:25,ivrs,en,Relatives of the accused were seen loitering outside our house.,High,0,70
+CHK-0070-09,VIC-0070,2026-08-27 00:46:25,sms,en,Relatives of the accused were seen loitering outside our house.,High,0,89
+CHK-0071-00,VIC-0071,2026-07-04 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,5
+CHK-0071-01,VIC-0071,2026-07-10 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,25
+CHK-0071-02,VIC-0071,2026-07-16 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,24
+CHK-0071-03,VIC-0071,2026-07-22 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,0,20
+CHK-0071-04,VIC-0071,2026-07-28 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,9
+CHK-0071-05,VIC-0071,2026-08-03 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,9
+CHK-0071-06,VIC-0071,2026-08-09 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,15
+CHK-0071-07,VIC-0071,2026-08-15 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,16
+CHK-0071-08,VIC-0071,2026-08-21 00:46:25,web,en,"I cannot take this harassment anymore, please send help immediately.",Critical,0,50
+CHK-0071-09,VIC-0071,2026-08-27 00:46:25,sms,en,"I cannot take this harassment anymore, please send help immediately.",Critical,0,86
+CHK-0072-00,VIC-0072,2026-07-04 00:46:25,sms,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,9
+CHK-0072-01,VIC-0072,2026-07-10 00:46:25,web,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,20
+CHK-0072-02,VIC-0072,2026-07-16 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,9
+CHK-0072-03,VIC-0072,2026-07-22 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,9
+CHK-0072-04,VIC-0072,2026-07-28 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,17
+CHK-0073-00,VIC-0073,2026-07-04 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,8
+CHK-0073-01,VIC-0073,2026-07-10 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,19
+CHK-0073-02,VIC-0073,2026-07-16 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,22
+CHK-0073-03,VIC-0073,2026-07-22 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,1,16
+CHK-0073-04,VIC-0073,2026-07-28 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,14
+CHK-0073-05,VIC-0073,2026-08-03 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,12
+CHK-0073-06,VIC-0073,2026-08-09 00:46:25,web,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,14
+CHK-0073-07,VIC-0073,2026-08-15 00:46:25,chat,en,Family is safe and doing well this week.,Low,0,22
+CHK-0074-00,VIC-0074,2026-07-04 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,25
+CHK-0074-01,VIC-0074,2026-07-10 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,13
+CHK-0074-02,VIC-0074,2026-07-16 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,8
+CHK-0074-03,VIC-0074,2026-07-22 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,12
+CHK-0074-04,VIC-0074,2026-07-28 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,21
+CHK-0074-05,VIC-0074,2026-08-03 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,0,13
+CHK-0074-06,VIC-0074,2026-08-09 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,8
+CHK-0074-07,VIC-0074,2026-08-15 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,14
+CHK-0074-08,VIC-0074,2026-08-21 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,7
+CHK-0075-00,VIC-0075,2026-07-04 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,17
+CHK-0075-01,VIC-0075,2026-07-10 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,18
+CHK-0075-02,VIC-0075,2026-07-16 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,24
+CHK-0075-03,VIC-0075,2026-07-22 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,10
+CHK-0075-04,VIC-0075,2026-07-28 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,23
+CHK-0075-05,VIC-0075,2026-08-03 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,16
+CHK-0075-06,VIC-0075,2026-08-09 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,8
+CHK-0075-07,VIC-0075,2026-08-15 00:46:25,web,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,8
+CHK-0075-08,VIC-0075,2026-08-21 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,25
+CHK-0075-09,VIC-0075,2026-08-27 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,23
+CHK-0076-00,VIC-0076,2026-07-04 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,1,16
+CHK-0076-01,VIC-0076,2026-07-10 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,19
+CHK-0076-02,VIC-0076,2026-07-16 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,17
+CHK-0076-03,VIC-0076,2026-07-22 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,17
+CHK-0076-04,VIC-0076,2026-07-28 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,17
+CHK-0076-05,VIC-0076,2026-08-03 00:46:25,chat,en,I feel completely isolated and overwhelmed with fear.,High,1,72
+CHK-0077-00,VIC-0077,2026-07-04 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,22
+CHK-0077-01,VIC-0077,2026-07-10 00:46:25,web,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,14
+CHK-0077-02,VIC-0077,2026-07-16 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,16
+CHK-0077-03,VIC-0077,2026-07-22 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,25
+CHK-0077-04,VIC-0077,2026-07-28 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,23
+CHK-0077-05,VIC-0077,2026-08-03 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,14
+CHK-0077-06,VIC-0077,2026-08-09 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,12
+CHK-0077-07,VIC-0077,2026-08-15 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,13
+CHK-0077-08,VIC-0077,2026-08-21 00:46:25,web,en,Family is safe and doing well this week.,Low,0,15
+CHK-0078-00,VIC-0078,2026-07-04 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,12
+CHK-0078-01,VIC-0078,2026-07-10 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,19
+CHK-0078-02,VIC-0078,2026-07-16 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,13
+CHK-0078-03,VIC-0078,2026-07-22 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,17
+CHK-0078-04,VIC-0078,2026-07-28 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,16
+CHK-0078-05,VIC-0078,2026-08-03 00:46:25,chat,en,"They broke our window last night, I fear for our lives.",Critical,0,55
+CHK-0078-06,VIC-0078,2026-08-09 00:46:25,web,en,"I cannot take this harassment anymore, please send help immediately.",Critical,0,62
+CHK-0079-00,VIC-0079,2026-07-04 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,22
+CHK-0079-01,VIC-0079,2026-07-10 00:46:25,chat,en,"Things are calm today, I attended work without issues.",Low,0,18
+CHK-0079-02,VIC-0079,2026-07-16 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,19
+CHK-0079-03,VIC-0079,2026-07-22 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,21
+CHK-0079-04,VIC-0079,2026-07-28 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,25
+CHK-0079-05,VIC-0079,2026-08-03 00:46:25,web,en,Received indirect threats in the market to withdraw the FIR.,High,0,83
+CHK-0080-00,VIC-0080,2026-07-04 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,24
+CHK-0080-01,VIC-0080,2026-07-10 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,21
+CHK-0080-02,VIC-0080,2026-07-16 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,12
+CHK-0080-03,VIC-0080,2026-07-22 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,20
+CHK-0080-04,VIC-0080,2026-07-28 00:46:25,sms,hi,बाज़ार में केस वापस लेने के लिए धमकी दी गई।,High,0,73
+CHK-0081-00,VIC-0081,2026-07-04 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,5
+CHK-0081-01,VIC-0081,2026-07-10 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,18
+CHK-0081-02,VIC-0081,2026-07-16 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,12
+CHK-0081-03,VIC-0081,2026-07-22 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,14
+CHK-0081-04,VIC-0081,2026-07-28 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,0,6
+CHK-0081-05,VIC-0081,2026-08-03 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,24
+CHK-0081-06,VIC-0081,2026-08-09 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,7
+CHK-0082-00,VIC-0082,2026-07-04 00:46:25,chat,en,"Things are calm today, I attended work without issues.",Low,0,23
+CHK-0082-01,VIC-0082,2026-07-10 00:46:25,web,en,Family is safe and doing well this week.,Low,1,20
+CHK-0082-02,VIC-0082,2026-07-16 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,1,20
+CHK-0082-03,VIC-0082,2026-07-22 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,13
+CHK-0082-04,VIC-0082,2026-07-28 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,13
+CHK-0082-05,VIC-0082,2026-08-03 00:46:25,chat,en,I feel completely isolated and overwhelmed with fear.,High,0,35
+CHK-0082-06,VIC-0082,2026-08-09 00:46:25,chat,en,Relatives of the accused were seen loitering outside our house.,High,1,35
+CHK-0083-00,VIC-0083,2026-07-04 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,22
+CHK-0083-01,VIC-0083,2026-07-10 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,22
+CHK-0083-02,VIC-0083,2026-07-16 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,18
+CHK-0083-03,VIC-0083,2026-07-22 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,21
+CHK-0083-04,VIC-0083,2026-07-28 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,18
+CHK-0083-05,VIC-0083,2026-08-03 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,1,11
+CHK-0083-06,VIC-0083,2026-08-09 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,24
+CHK-0083-07,VIC-0083,2026-08-15 00:46:25,chat,en,Family is safe and doing well this week.,Low,1,9
+CHK-0084-00,VIC-0084,2026-07-04 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,1,22
+CHK-0084-01,VIC-0084,2026-07-10 00:46:25,sms,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,5
+CHK-0084-02,VIC-0084,2026-07-16 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,1,21
+CHK-0084-03,VIC-0084,2026-07-22 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,8
+CHK-0084-04,VIC-0084,2026-07-28 00:46:25,ivrs,hi,आरोपियों के रिश्तेदार आज हमारे घर के बाहर घूम रहे थे।,High,1,56
+CHK-0085-00,VIC-0085,2026-07-04 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,13
+CHK-0085-01,VIC-0085,2026-07-10 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,11
+CHK-0085-02,VIC-0085,2026-07-16 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,12
+CHK-0085-03,VIC-0085,2026-07-22 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,15
+CHK-0085-04,VIC-0085,2026-07-28 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,5
+CHK-0085-05,VIC-0085,2026-08-03 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,14
+CHK-0085-06,VIC-0085,2026-08-09 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,7
+CHK-0085-07,VIC-0085,2026-08-15 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,25
+CHK-0085-08,VIC-0085,2026-08-21 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,9
+CHK-0086-00,VIC-0086,2026-07-04 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,16
+CHK-0086-01,VIC-0086,2026-07-10 00:46:25,ivrs,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,24
+CHK-0086-02,VIC-0086,2026-07-16 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,17
+CHK-0086-03,VIC-0086,2026-07-22 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,11
+CHK-0086-04,VIC-0086,2026-07-28 00:46:25,sms,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,18
+CHK-0086-05,VIC-0086,2026-08-03 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,20
+CHK-0086-06,VIC-0086,2026-08-09 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,23
+CHK-0086-07,VIC-0086,2026-08-15 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,25
+CHK-0086-08,VIC-0086,2026-08-21 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,5
+CHK-0087-00,VIC-0087,2026-07-04 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,23
+CHK-0087-01,VIC-0087,2026-07-10 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,21
+CHK-0087-02,VIC-0087,2026-07-16 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,5
+CHK-0087-03,VIC-0087,2026-07-22 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,22
+CHK-0087-04,VIC-0087,2026-07-28 00:46:25,web,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,14
+CHK-0087-05,VIC-0087,2026-08-03 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,19
+CHK-0088-00,VIC-0088,2026-07-04 00:46:25,ivrs,en,"Spoke to our lawyer, feeling okay about the process.",Low,1,5
+CHK-0088-01,VIC-0088,2026-07-10 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,1,9
+CHK-0088-02,VIC-0088,2026-07-16 00:46:25,web,en,"Spoke to our lawyer, feeling okay about the process.",Low,1,11
+CHK-0088-03,VIC-0088,2026-07-22 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,17
+CHK-0088-04,VIC-0088,2026-07-28 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,9
+CHK-0088-05,VIC-0088,2026-08-03 00:46:25,web,en,Received indirect threats in the market to withdraw the FIR.,High,0,71
+CHK-0088-06,VIC-0088,2026-08-09 00:46:25,chat,en,I feel completely isolated and overwhelmed with fear.,High,1,64
+CHK-0089-00,VIC-0089,2026-07-04 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,12
+CHK-0089-01,VIC-0089,2026-07-10 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,1,10
+CHK-0089-02,VIC-0089,2026-07-16 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,11
+CHK-0089-03,VIC-0089,2026-07-22 00:46:25,web,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,15
+CHK-0089-04,VIC-0089,2026-07-28 00:46:25,chat,en,Relatives of the accused were seen loitering outside our house.,High,0,89
+CHK-0090-00,VIC-0090,2026-07-04 00:46:25,web,en,Family is safe and doing well this week.,Low,0,7
+CHK-0090-01,VIC-0090,2026-07-10 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,23
+CHK-0090-02,VIC-0090,2026-07-16 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,17
+CHK-0090-03,VIC-0090,2026-07-22 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,1,6
+CHK-0090-04,VIC-0090,2026-07-28 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,13
+CHK-0090-05,VIC-0090,2026-08-03 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,13
+CHK-0091-00,VIC-0091,2026-07-04 00:46:25,chat,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,1,16
+CHK-0091-01,VIC-0091,2026-07-10 00:46:25,ivrs,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,8
+CHK-0091-02,VIC-0091,2026-07-16 00:46:25,chat,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,1,10
+CHK-0091-03,VIC-0091,2026-07-22 00:46:25,sms,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,8
+CHK-0091-04,VIC-0091,2026-07-28 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,22
+CHK-0091-05,VIC-0091,2026-08-03 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,16
+CHK-0091-06,VIC-0091,2026-08-09 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,9
+CHK-0091-07,VIC-0091,2026-08-15 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,17
+CHK-0091-08,VIC-0091,2026-08-21 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,21
+CHK-0092-00,VIC-0092,2026-07-04 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,24
+CHK-0092-01,VIC-0092,2026-07-10 00:46:25,chat,en,Family is safe and doing well this week.,Low,0,16
+CHK-0092-02,VIC-0092,2026-07-16 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,8
+CHK-0092-03,VIC-0092,2026-07-22 00:46:25,chat,en,"Things are calm today, I attended work without issues.",Low,0,15
+CHK-0092-04,VIC-0092,2026-07-28 00:46:25,sms,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,25
+CHK-0092-05,VIC-0092,2026-08-03 00:46:25,chat,en,People in the neighborhood are avoiding talking to us.,Moderate,0,13
+CHK-0092-06,VIC-0092,2026-08-09 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,6
+CHK-0093-00,VIC-0093,2026-07-04 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,10
+CHK-0093-01,VIC-0093,2026-07-10 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,11
+CHK-0093-02,VIC-0093,2026-07-16 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,8
+CHK-0093-03,VIC-0093,2026-07-22 00:46:25,web,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,5
+CHK-0093-04,VIC-0093,2026-07-28 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,20
+CHK-0093-05,VIC-0093,2026-08-03 00:46:25,chat,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,15
+CHK-0093-06,VIC-0093,2026-08-09 00:46:25,sms,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,13
+CHK-0093-07,VIC-0093,2026-08-15 00:46:25,ivrs,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,9
+CHK-0094-00,VIC-0094,2026-07-04 00:46:25,web,hi,परिवार सुरक्षित है और दिन सामान्य रहा।,Low,0,21
+CHK-0094-01,VIC-0094,2026-07-10 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,11
+CHK-0094-02,VIC-0094,2026-07-16 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,11
+CHK-0094-03,VIC-0094,2026-07-22 00:46:25,ivrs,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,6
+CHK-0094-04,VIC-0094,2026-07-28 00:46:25,web,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,11
+CHK-0094-05,VIC-0094,2026-08-03 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,25
+CHK-0094-06,VIC-0094,2026-08-09 00:46:25,sms,hi,"आज सब शांत है, कोई परेशानी नहीं हुई।",Low,0,20
+CHK-0094-07,VIC-0094,2026-08-15 00:46:25,chat,hi,आस-पड़ोस के लोग हमसे बात करने से बच रहे हैं।,Moderate,0,24
+CHK-0094-08,VIC-0094,2026-08-21 00:46:25,ivrs,hi,"वकील साहब से बात हुई, सब ठीक चल रहा है।",Low,0,25
+CHK-0094-09,VIC-0094,2026-08-27 00:46:25,web,hi,गाँव के माहौल की वजह से नींद नहीं आ रही है।,Moderate,0,14
+CHK-0095-00,VIC-0095,2026-07-04 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,14
+CHK-0095-01,VIC-0095,2026-07-10 00:46:25,sms,en,People in the neighborhood are avoiding talking to us.,Moderate,1,22
+CHK-0095-02,VIC-0095,2026-07-16 00:46:25,ivrs,en,People in the neighborhood are avoiding talking to us.,Moderate,1,17
+CHK-0095-03,VIC-0095,2026-07-22 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,24
+CHK-0095-04,VIC-0095,2026-07-28 00:46:25,chat,en,"They broke our window last night, I fear for our lives.",Critical,0,47
+CHK-0095-05,VIC-0095,2026-08-03 00:46:25,ivrs,en,Direct death threat received today if we testify in court.,Critical,0,68
+CHK-0096-00,VIC-0096,2026-07-04 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,9
+CHK-0096-01,VIC-0096,2026-07-10 00:46:25,chat,en,"Spoke to our lawyer, feeling okay about the process.",Low,0,17
+CHK-0096-02,VIC-0096,2026-07-16 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,16
+CHK-0096-03,VIC-0096,2026-07-22 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,23
+CHK-0096-04,VIC-0096,2026-07-28 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,21
+CHK-0096-05,VIC-0096,2026-08-03 00:46:25,sms,en,Feeling anxious about the court hearing next month.,Moderate,0,5
+CHK-0096-06,VIC-0096,2026-08-09 00:46:25,ivrs,en,I feel completely isolated and overwhelmed with fear.,High,1,63
+CHK-0096-07,VIC-0096,2026-08-15 00:46:25,web,en,I feel completely isolated and overwhelmed with fear.,High,0,57
+CHK-0097-00,VIC-0097,2026-07-04 00:46:25,sms,en,Family is safe and doing well this week.,Low,1,16
+CHK-0097-01,VIC-0097,2026-07-10 00:46:25,ivrs,en,"Things are calm today, I attended work without issues.",Low,1,21
+CHK-0097-02,VIC-0097,2026-07-16 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,23
+CHK-0097-03,VIC-0097,2026-07-22 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,16
+CHK-0097-04,VIC-0097,2026-07-28 00:46:25,web,en,Relatives of the accused were seen loitering outside our house.,High,1,78
+CHK-0098-00,VIC-0098,2026-07-04 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,10
+CHK-0098-01,VIC-0098,2026-07-10 00:46:25,web,en,"Things are calm today, I attended work without issues.",Low,0,20
+CHK-0098-02,VIC-0098,2026-07-16 00:46:25,sms,en,"Things are calm today, I attended work without issues.",Low,0,9
+CHK-0098-03,VIC-0098,2026-07-22 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,12
+CHK-0098-04,VIC-0098,2026-07-28 00:46:25,ivrs,en,Family is safe and doing well this week.,Low,0,16
+CHK-0098-05,VIC-0098,2026-08-03 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,22
+CHK-0098-06,VIC-0098,2026-08-09 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,17
+CHK-0098-07,VIC-0098,2026-08-15 00:46:25,ivrs,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,19
+CHK-0098-08,VIC-0098,2026-08-21 00:46:25,ivrs,en,Feeling anxious about the court hearing next month.,Moderate,0,16
+CHK-0098-09,VIC-0098,2026-08-27 00:46:25,chat,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,17
+CHK-0099-00,VIC-0099,2026-07-04 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,12
+CHK-0099-01,VIC-0099,2026-07-10 00:46:25,sms,en,Family is safe and doing well this week.,Low,0,24
+CHK-0099-02,VIC-0099,2026-07-16 00:46:25,web,en,Feeling anxious about the court hearing next month.,Moderate,0,18
+CHK-0099-03,VIC-0099,2026-07-22 00:46:25,web,en,People in the neighborhood are avoiding talking to us.,Moderate,0,5
+CHK-0099-04,VIC-0099,2026-07-28 00:46:25,sms,en,"Trouble sleeping due to village tension, but managing.",Moderate,0,8
+CHK-0099-05,VIC-0099,2026-08-03 00:46:25,chat,en,Feeling anxious about the court hearing next month.,Moderate,0,16
+CHK-0100-00,VIC-0100,2026-07-04 00:46:25,chat,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,9
+CHK-0100-01,VIC-0100,2026-07-10 00:46:25,ivrs,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,19
+CHK-0100-02,VIC-0100,2026-07-16 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,9
+CHK-0100-03,VIC-0100,2026-07-22 00:46:25,sms,hi,अगले महीने की पेशी को लेकर थोड़ी चिंता हो रही है।,Moderate,0,25
+CHK-0100-04,VIC-0100,2026-07-28 00:46:25,ivrs,hi,"कल रात उन्होंने घर पर हमला करने की कोशिश की, जान को खतरा है।",Critical,0,73
+CHK-0100-05,VIC-0100,2026-08-03 00:46:25,ivrs,hi,"कल रात उन्होंने घर पर हमला करने की कोशिश की, जान को खतरा है।",Critical,0,66
