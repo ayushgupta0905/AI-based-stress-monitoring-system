@@ -1,5 +1,6 @@
 import os
 import joblib
+import google.generativeai as genai
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
@@ -114,6 +115,42 @@ def transcribe_audio(req: TranscribeRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+class ChatRequest(BaseModel):
+    message: str
+    language: Optional[str] = "en"
+
+@app.post("/ai/v1/chat")
+def chat_counselor(req: ChatRequest):
+    try:
+        # Pulls the secret API key securely from the cloud environment
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            raise HTTPException(status_code=500, detail="Gemini API Key is missing on the server.")
+        
+        genai.configure(api_key=api_key)
+        
+        # The hidden prompt that enforces the counselor persona and bilingual safety
+        system_instruction = (
+            "You are a trauma-informed crisis counselor AI supporting victims of atrocities. "
+            "Your tone must be highly empathetic, non-judgmental, grounding, and concise. "
+            "Never provide legal or medical advice, but strictly focus on emotional de-escalation. "
+            f"Respond to the user strictly in this language code: {req.language}."
+        )
+        
+        # Initializing Gemini 1.5 Flash for high-speed conversational responses
+        model = genai.GenerativeModel(
+            model_name="gemini-1.5-flash",
+            system_instruction=system_instruction
+        )
+        
+        response = model.generate_content(req.message)
+        
+        return {
+            "reply": response.text,
+            "language_used": req.language
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn
