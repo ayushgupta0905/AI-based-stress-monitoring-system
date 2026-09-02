@@ -1,7 +1,8 @@
 fastapi
 uvicorn
 scikit-learn
-transformers
-torch
 pandas
 joblib
+python-multipart
+google-generativeai
+python-dotenv
