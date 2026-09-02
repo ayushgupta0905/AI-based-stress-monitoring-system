@@ -137,9 +137,9 @@ def chat_counselor(req: ChatRequest):
             f"Respond to the user strictly in this language code: {req.language}."
         )
         
-        # Initializing Gemini 1.5 Flash for high-speed conversational responses
+        # Initializing Gemini 2.5 Flash for high-speed conversational responses
         model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash",
+            model_name="gemini-2.5-flash",
             system_instruction=system_instruction
         )
         
