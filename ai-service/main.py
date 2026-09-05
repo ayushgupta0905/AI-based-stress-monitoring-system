@@ -1,5 +1,6 @@
 import os
 import joblib
+import numpy as np
 import google.generativeai as genai
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -7,16 +8,20 @@ from typing import List, Optional
 
 app = FastAPI(
     title="SIH26094 Intelligence Layer API",
-    version="1.0.0",
+    version="1.1.0",
     description="Dynamic Distress Scoring and Escalation Prediction Service"
 )
 
 # --- 1. Load Models at Startup ---
 MODEL_EN_PATH = os.path.join("models", "model_en.pkl")
 MODEL_HI_PATH = os.path.join("models", "model_hi.pkl")
+MODEL_MR_PATH = os.path.join("models", "model_mr.pkl")
+MODEL_ESC_PATH = os.path.join("models", "escalation_model.pkl")
 
 model_en = joblib.load(MODEL_EN_PATH) if os.path.exists(MODEL_EN_PATH) else None
 model_hi = joblib.load(MODEL_HI_PATH) if os.path.exists(MODEL_HI_PATH) else None
+model_mr = joblib.load(MODEL_MR_PATH) if os.path.exists(MODEL_MR_PATH) else None
+escalation_model = joblib.load(MODEL_ESC_PATH) if os.path.exists(MODEL_ESC_PATH) else None
 
 
 # --- 2. Define Request Payloads ---
@@ -25,19 +30,27 @@ class ScoreRequest(BaseModel):
     text: str
     language: Optional[str] = "en"
     recent_history: Optional[List[str]] = []
+    previous_dds_scores: Optional[List[int]] = []
     response_latency_sec: Optional[int] = 0
 
 class TranscribeRequest(BaseModel):
     audio_ref: str
 
 
-# --- 3. The Scoring Endpoint (Explainable AI) ---
+# --- 3. The Scoring Endpoint (Explainable AI & Predictive Trend) ---
 @app.post("/ai/v1/score")
 def score_checkin(req: ScoreRequest):
     try:
-        clf = model_hi if req.language == "hi" else model_en
+        # 0. Route to requested language model
+        if req.language == "mr":
+            clf = model_mr
+        elif req.language == "hi":
+            clf = model_hi
+        else:
+            clf = model_en
+            
         if clf is None:
-            raise HTTPException(status_code=500, detail="Requested language model is not loaded.")
+            raise HTTPException(status_code=500, detail=f"Requested language model '{req.language}' is not loaded.")
 
         # 1. NLP Sentiment & Distress Probability
         distress_prob = float(clf.predict_proba([req.text])[0][1])
@@ -78,7 +91,20 @@ def score_checkin(req: ScoreRequest):
         else:
             risk_tier = "Critical"
 
-        # 6. Explainability Factors for the Dashboard
+        # 6. Predictive Escalation (ML Trend Model)
+        # Calculates trend slope from past check-in scores vs current score
+        past_score = req.previous_dds_scores[-1] if req.previous_dds_scores else dds_score
+        slope = dds_score - past_score
+
+        if escalation_model:
+            # Features must match training: [current_dds, slope, missed_count]
+            pred_features = np.array([[dds_score, slope, missed_count]])
+            escalation_flag = bool(escalation_model.predict(pred_features)[0] == 1)
+        else:
+            # Fallback heuristic if ML model fails to load
+            escalation_flag = risk_tier in ["High", "Critical"]
+
+        # 7. Explainability Factors for the Dashboard
         factors = [f"Text distress probability: {distress_prob:.2f}"]
         if trigger_words:
             factors.append(f"Trigger words detected: {', '.join(trigger_words)}")
@@ -86,6 +112,8 @@ def score_checkin(req: ScoreRequest):
             factors.append(f"{missed_count} missed check-ins in recent history")
         if latency_penalty > 0:
             factors.append(f"Extended response latency ({req.response_latency_sec}s)")
+        if slope > 15:
+            factors.append(f"Rapid distress increase (+{slope} pts trend slope)")
 
         return {
             "dds_score": dds_score,
@@ -97,7 +125,7 @@ def score_checkin(req: ScoreRequest):
             },
             "contributing_factors": factors,
             "trigger_words": trigger_words, 
-            "escalation_flag": risk_tier in ["High", "Critical"]
+            "escalation_flag": escalation_flag
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
